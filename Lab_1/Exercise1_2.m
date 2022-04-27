@@ -6,7 +6,7 @@ clear all;
 close all;
 
 pkg load statistics;
-#Α Ερώτημα
+#Γ Γ…Γ±ΓΎΓ΄Γ§Γ¬Γ΅
 k=0:0.0001:8;
 lamda=[0.5,1,3];
 
@@ -28,9 +28,9 @@ set(gca, 'FontSize', 14)
 title("Probability Density function of Exponential processes");
 xlabel("k values");
 ylabel("probability");
-legend("1/ λ=0.5","1/ λ=1","1/ λ=3");
+legend("1/ Γ«=0.5","1/ Γ«=1","1/ Γ«=3");
 
-#Β Ερώτημα
+#Γ‚ Γ…Γ±ΓΎΓ΄Γ§Γ¬Γ΅
 k=0:0.0001:8;
 lamda=[0.5,1,3];
 
@@ -52,9 +52,9 @@ set(gca, 'FontSize', 14)
 title("Probability Cumulative function of Exponential processes");
 xlabel("k values");
 ylabel("probability");
-legend("1/ λ=0.5","1/ λ=1","1/ λ=3");
+legend("1/ Γ«=0.5","1/ Γ«=1","1/ Γ«=3");
 
-#Γ Ερώτημα
+#Γƒ Γ…Γ±ΓΎΓ΄Γ§Γ¬Γ΅
 k=0:0.00001:8;
 exp=expcdf(k,2.5);
 pr1=1-exp(30000);
