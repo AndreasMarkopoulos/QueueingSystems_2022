@@ -7,7 +7,7 @@ close all;
 
 pkg load statistics;
 
-#A Ερώτημα
+#A Γ…Γ±ΓΎΓ΄Γ§Γ¬Γ΅
 lamda=5;
 a=exprnd(1/lamda,1,100);
 for i=1:99
@@ -19,9 +19,9 @@ set(gca, 'FontSize', 14)
 title("Poisson process counting ");
 xlabel("Seconds");
 ylabel("N(t)");
-legend("λ=5");
+legend("Γ«=5");
 
-#B Ερώτημα
+#B Γ…Γ±ΓΎΓ΄Γ§Γ¬Γ΅
 
 #100
 lamda=5;
